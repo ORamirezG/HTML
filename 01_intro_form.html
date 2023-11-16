@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro a Formularios</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <label for="email">Agrega tu Email</label>
+            <input type="text" id="email" name="email" value="nada@todo.com"> <br>
+            
+            <label for="firstName" id="">Agregate</label> <br>
+            <input type="text" name="firstName"  id="firstName" placeholder="Hola"> <br>
+            
+            <label for="age">Edad</label>
+            <input type="number" name="age" id="age" min="0" max="120">
+            
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </fieldset>
+        
+        <fieldset>
+
+        <legend>Datos de contacto</legend>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" value="nada@todo.com" placeholder="hola@example.com">
+
+            <label for="phone">Teléfono</label>
+            <input type="tel" name="phone" id="phone">
+
+            <label for="web">Sitio Web</label>
+            <input type="url" name="url" id="web">
+
+            <label for="range">Elige un Rango</label>
+            <input type="range" name="range" id="range" min="100" max="300" step="50">
+        
+            <label for="birthdate">Fecha de nacimiento</label>
+            <input type="date" name="birthdate" id="birthdate">
+
+            <label for="apoiment">Cita medica</label>
+            <input type="datetime-local" name="apoiment" id="apoiment">
+
+            <input type="hidden" name="">
+
+            <input type="color" name="">
+            
+            <input type="week" name="">
+
+            <input type="reset" name="">
+
+            <input type="radio" name="gender" id="gender_f" value="F">
+            <label for="gender">Femenino</label>
+
+            <input type="radio" name="gender" id="gender_M" value="M">
+            <label for="gender">Masculino</label>
+
+            <input type="radio" name="gender" id="gender_O" value="O">
+            <label for="gender">O</label>
+
+            <p>Compras</p>
+            <input type="checkbox"  name="movies" id="">
+            <label for="starwars">Star Wars</label>
+
+            <input type="checkbox" name="movies" id="" value="Naranja Mecanica">
+            <label for="starwars">Señor de los anillos</label>
+
+            <label for>PIZZA SIN PIÑA COÑO</label>
+            <select name="PIZZA" id="PIZZA">
+                <optgroup>😊😊</optgroup>
+                <option value="con">Con Piña<option>
+        </fieldset>
+            
+        <!-- <textarea name="" id=""></textarea> -->
+        
+        <br />
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+
+    </form>
+
+
+</body>
+</html>
